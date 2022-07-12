@@ -20,6 +20,21 @@
   <body>
     <div class="container">
       <div class="row" id="animalrow"></div>
+      <div class="row">
+        <div class="col">
+          <div class="mb-3">
+            <label for="animalInput" class="form-label">Animal</label>
+            <input type="text" class="form-control" id="animalInput" />
+          </div>
+          <button
+            type="submit"
+            class="btn btn-primary"
+            onclick="handleAnimalClick()"
+          >
+            Submit
+          </button>
+        </div>
+      </div>
     </div>
     <script src="./js/index.js"></script>
   </body>
